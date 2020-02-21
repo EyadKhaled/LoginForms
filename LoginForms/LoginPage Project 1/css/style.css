@@ -1,0 +1,96 @@
+/* Start Global */
+
+body {
+	background-image: url("../images/background1.jpg");
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.align-center {text-align: center;}
+
+@font-face {font-family: font1;src: url("../fonts/Hansief.otf");}
+@font-face {font-family: font2;src: url("../fonts/MrGrieves-Regular.otf");}
+@font-face {font-family: font3;src: url("../fonts/Rustico-Regular.otf");}
+@font-face {font-family: font4;src: url("../fonts/Lora-Bold.ttf");}
+
+/* End Global */
+
+/* Start Login */
+
+.container {
+	width: 450px;
+	background-color: #777;
+	border: 2px solid #000;
+	opacity: .8;
+}
+
+.container h1 {
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: font1;
+	font-size: 40px;
+}
+
+.container label {
+	display: block;
+    padding: 0px 0px 5px 30px;
+    font-size: 25px;
+    color: #F0F0F0;
+    font-family: font2;
+}
+
+.container input {
+	padding: 10px;
+	margin: 0px 0px 20px 30px;
+	width: 80%;
+	background-color: #4b5557;
+	border: none;
+	color: #FFF;
+}
+
+.container button {
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: none;
+    color: #FFF;
+    border: 2px solid #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    font-family: font4;
+}
+
+.container button:hover {
+	background-color: #FFF;
+	color: #555;
+}
+
+.container h3 {
+	margin: 20px 0px 20px 30px;
+	width: 80%;
+    background-color: #4b5557;
+    color: #CCC;
+    padding: 20px 10px;
+    font-family: font4, arial, sans-serif;
+}
+
+.container span {
+	font-family: arial, sans-serif;
+	text-transform: uppercase;
+	color: #F0F0F0;
+	cursor: pointer;
+}
+
+.container span:hover {
+    text-decoration: underline;
+    color: #2ecc71;
+}
+
+/* End Login */

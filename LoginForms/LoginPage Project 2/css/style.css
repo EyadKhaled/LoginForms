@@ -1,0 +1,97 @@
+/* Start Global */
+
+body {
+	background-color: #F0F0F0;
+}
+
+.align-center {text-align: center;}
+
+@font-face {font-family: font1;src: url("../fonts/Hansief.otf");}
+@font-face {font-family: font2;src: url("../fonts/MrGrieves-Regular.otf");}
+@font-face {font-family: font3;src: url("../fonts/Rustico-Regular.otf");}
+@font-face {font-family: font4;src: url("../fonts/Lora-Bold.ttf");}
+@font-face {font-family: font5;src: url("../fonts/Beautify Script.otf");}
+@font-face {font-family: font6;src: url("../fonts/Henrik-Regular.otf");}
+@font-face {font-family: font7;src: url("../fonts/Chlakh Demo.ttf");}
+@font-face {font-family: font8;src: url("../fonts/NIKOLETA.ttf");}
+
+/* End Global */
+
+/* Start Login Box */
+
+.container {
+	background-color: #FFF;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+	width: 450px;
+	transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.container h1 {
+    text-align: center;
+    color: #666;
+    font-family: font6;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.container img {
+	display: block;
+	margin: 1px auto 30px;
+	width: 35%;
+	border-radius: 50%
+}
+
+.container label {
+	display: block;
+	padding: 0px 0px 10px 30px;
+	font-family: font4;
+}
+
+.container input {
+	padding: 10px;
+	margin: 0px 0px 40px 30px;
+	width: 80%;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 1px solid #555;
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	position: relative;
+}
+
+.container input:focus {
+	outline: none;
+}
+
+.container button {
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #2ecc71;
+    color: #FFF;
+    border: 2px solid #2ecc71;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    font-family: font4;
+}
+
+.container button:hover {
+	border: 1px solid #CCC;
+	background-color: #EEE;
+	color: #555;
+}
+
+.container p {
+	padding-left: 30px;
+	font-family: arial;
+	font-size: 14px;
+	color: #008CBA;
+}
+
+/* End Login Box */
