@@ -10,6 +10,8 @@ body {
 	align-items: center;
 }
 
+.div {color:#F0F0F0}
+
 .align-center {text-align: center;}
 
 @font-face {font-family: font1;src: url("../fonts/Hansief.otf");}
